@@ -13,9 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
-    "inquirer": "^6.5.0",
-    "html-pdf": "^2.2.0"
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^6.5.2"
   },
   "bugs": {
     "url": "https://github.com/Sforzemon/Dev-Profile-Generator/issues"
