@@ -58,7 +58,7 @@ function promptUser() {
     {
       type: "list",
       message: "Now lets make it weird, what kind of theme would you like?",
-      choices: ["analogic", "analogic-complement", "complement", "monochrome", "monochrome-dark", "monochrome-light", "quad", "triad"],
+      choices: ["analogic", "analogic-complement", "monochrome", "monochrome-dark", "monochrome-light", "quad", "triad"],
       name: "scheme"
     }
   ]);
