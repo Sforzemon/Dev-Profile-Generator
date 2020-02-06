@@ -75,11 +75,11 @@ async function profileMaker(){
       // console.log(axiosStars.data);
       const html =  newhtml.generateHTML(colorArray,axiosUser,axiosStars);
       await writeFile("index.html",html);
-      pdf.create(html, pdfOptions).toFile('./'+username+'.pdf', function(err) {
+      pdf.create(html, pdfOptions).toFile('./PDFs/'+username+'.pdf', function(err) {
         if (err) {
           return console.log(err);
         } else {
-          console.log('Successfully created Profile-PDF.pdf');
+          console.log(`Successfully created ${username}.pdf`);
         }
       });
   }

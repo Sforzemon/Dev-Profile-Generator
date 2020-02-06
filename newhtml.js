@@ -76,7 +76,7 @@ function generateHTML(data,resp,star) {
             border: 6px solid ${data[6][0]};
             box-shadow: ${data[0][1]}4d 4px 1px 20px 4px;
             }
-            .photo-header h1, .photo-header h2 {
+            .photo-header h1, .photo-header h2, .photo-header h4, h3{
             width: 100%;
             text-align: center;
             }
@@ -143,11 +143,17 @@ function generateHTML(data,resp,star) {
               text-align: center;
               padding-bottom: 1%;
             }
+            @media print {
+              html {zoom: 43%;}
+              .photo-header img {margin-left: 38%;}
+              h3 {margin: 0 auto; padding: 0;}
+              .footer {padding-bottom: 0; margin-bottom: 0;}
+          }
           </style>
         </head>
         <body>
           <header class="wrapper">   
-            <div class="photo-header"> <img src = ${resp.data.avatar_url}></img>
+            <div class="photo-header"><img src = ${resp.data.avatar_url}></img>
               <p><h1>Hello!</h1></p>
               <p><h2>My Name is ${resp.data.name}</h2></p>
               <p><h4>Currently studying development @UCONN Bootcamp<br></h4></p>

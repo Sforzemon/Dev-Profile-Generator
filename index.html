@@ -16,16 +16,16 @@
               height:100%
             }
             .wrapper {
-            background-color: #6CDAE7;
+            background-color: #4F86F7;
             padding-top: 125px;
             }
             body {
-            background-color: #6CDAE7;
+            background-color: #4F86F7;
             -webkit-print-color-adjust: exact !important;
             font-family: 'Cabin', sans-serif;
             }
             main {
-            background-color: #2596D1;
+            background-color: #ECF245;
             height: auto;
             width:100%;
             padding-top: 30px;
@@ -59,7 +59,7 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            background-color: #DBDBDB;
+            background-color: #FF69B4;
             box-shadow: #0000004d 4px 1px 20px 4px;
             color: #000000;
             padding: 15px;
@@ -72,10 +72,10 @@
             border-radius: 50%;
             object-fit: cover;
             margin-top: -75px;
-            border: 6px solid #E5E5E5;
+            border: 6px solid #FF85CF;
             box-shadow: #0000004d 4px 1px 20px 4px;
             }
-            .photo-header h1, .photo-header h2 {
+            .photo-header h1, .photo-header h2, .photo-header h4, h3{
             width: 100%;
             text-align: center;
             }
@@ -116,9 +116,9 @@
             .card {
               padding: 20px;
               border-radius: 15px;
-              background-color: #87CEEB;
+              background-color: #FF69B4;
               color: #000000;
-              border: solid 6px #E5E5E5;
+              border: solid 6px #FF85CF;
               box-shadow: #0000004d 4px 1px 20px 4px;
               margin: 20px;
               min-width: 260px;
@@ -142,40 +142,46 @@
               text-align: center;
               padding-bottom: 1%;
             }
+            @media print {
+              html {zoom: 43%;}
+              .photo-header img {margin-left: 38%;}
+              h3 {margin: 0 auto; padding: 0;}
+              .footer {padding-bottom: 0; margin-bottom: 0;}
+          }
           </style>
         </head>
         <body>
           <header class="wrapper">   
-            <div class="photo-header"> <img src = https://avatars2.githubusercontent.com/u/25165503?v=4></img>
+            <div class="photo-header"><img src = https://avatars2.githubusercontent.com/u/24884108?v=4></img>
               <p><h1>Hello!</h1></p>
-              <p><h2>My Name is Michael Hughes</h2></p>
+              <p><h2>My Name is null</h2></p>
               <p><h4>Currently studying development @UCONN Bootcamp<br></h4></p>
               <ul class= "links-nav">
-                <li class= "nav-link"><h5><i class="fas fa-location-arrow"></i>Central CT&nbsp;</h5></li> 
-                <li class= "nav-link"><h5><i class="fab fa-github-alt"></i><a href ="https://github.com/Sforzemon" target = "_blank">Github Profile</a>&nbsp;</h5></li>
-                <li class= "nav-link"><h5><i class="fas fa-rss"></i><a href ="https://sforzemon.github.io/A-Professional-Profile/" target = "_blank">Personal Page</a></h5></li>
+                <li class= "nav-link"><h5><i class="fas fa-location-arrow"></i>null&nbsp;</h5></li> 
+                <li class= "nav-link"><h5><i class="fab fa-github-alt"></i><a href ="https://github.com/shaunharle" target = "_blank">Github Profile</a>&nbsp;</h5></li>
+                <li class= "nav-link"><h5><i class="fas fa-rss"></i><a href ="" target = "_blank">Personal Page</a></h5></li>
               </ul>
             </div>
           </header>
           <main>
             <div class="container">
               <div class="row">
-                <p><h3>I'm here to learn.  Teach me things.</h3></p>
+                <p><h3>null</h3></p>
               </div>
               <div class="row">
                 <div class="col card">
-                  <h2>Public Repositories<br>19</h2>
+                  <h2>Public Repositories<br>16</h2>
                 </div>
                 <div class="col card">
-                  <h2>Followers<br>17</h2>
+                  <h2>Followers<br>2</h2>
                 </div>
               </div>
               <div class ="row">
                 <div class="col card">
-                  <h2>Github Stars<br>0</h2>
+                  <h2>Github Stars<br>1</h2>
                 </div>
                 <div class="col card">
-                  <h2>Following<br>25</h2>
+                  <h2>Following<br>1</h2>
                 </div>
               </div>
             </div>
